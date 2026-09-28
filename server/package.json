@@ -2,11 +2,15 @@
   "name": "OrganEase",
   "version": "Mark 1",
   "description": "Organ Tranfer WEbApp",
-  "main": "app.js",
+ "main": "server.js",
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start:dev": "nodemon server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon app.js"
-  },
+  "start": "node server.js",
+  "start:dev": "nodemon server.js"
+}
+},
   "repository": {
     "type": "git",
     "url": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce"
@@ -19,7 +23,6 @@
   "homepage": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "braintree": "^3.0.0",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -33,3 +36,4 @@
     "npm": "^6.14.8"
   }
 }
+
